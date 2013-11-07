@@ -8,3 +8,7 @@
 /bin
 /libs
 /ic_launcher-web.png
+
+.classpath
+.project
+.settings/
