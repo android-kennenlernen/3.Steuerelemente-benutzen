@@ -50,7 +50,7 @@ Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abru
 (Oder wenn der Dozent danach fragt...) 
 
 **MainActivity.java**
-
+```java
 	public void onClick_DrueckDochMal(View v) {
 		
 		// Referenz auf Eingabezeile ermitteln  
@@ -64,6 +64,7 @@ Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abru
 		tv.setText(text);
 		
 	}
+```
 
 Nun zur jeweiligen *activity_xxx.xml*.  
 Der oben genannte Methoden-Name ist nun innerhalb der betreffenden _Button_-Deklaration bekannt zu geben.  
@@ -71,12 +72,14 @@ Erfolgt dies __nicht__ / wird dies vergessen, wird die onClick-Methode in der Ac
 
 **activity_main.xml**
 
+```xml
     <Button
         android:id="@+id/btnDrueckDochMal"
 		.
 		.
         android:onClick="onClick_DrueckDochMal"
         android:text="Drück doch mal" />
+```
 
 Im Quelltext der 'Activity' wurden diesbezüglich an den betreffenden Stellen nochmals Kommentare angebracht
 
