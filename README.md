@@ -40,7 +40,7 @@ Im klassischen Kontext:
 Im deklaritiven Kontext:
 
 Zunächst ist eine Methode zu implementieren, welche bei 'onClick' aufgerufen werden soll.  
-Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen darum dagegen schon.  
+Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen herum dagegen schon.  
 
 Die Methoden-Deklaration dazu lautet:
 
