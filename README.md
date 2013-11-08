@@ -42,7 +42,7 @@ Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen d
 
 Die Methoden-Deklaration sollte lauten:
 
-__public void__ Namen**(View v)**
+__public void__ Namen __(View v)__
 
 Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abrufbar sein!  
 (Oder wenn der Dozent danach fragt...) 
