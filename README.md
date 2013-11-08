@@ -6,10 +6,14 @@ Die Einleitung erfolgt hier...
 
 ----
 
-Klassische Variante in Methode 'onCreate':
+Im klassischen Kontext:
 
 **MainActivity.java**
 
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		.
+		.
 		Button b = (Button) findViewById(R.id.btnRaeumeAuf);
 		b.setOnClickListener(new OnClickListener() {
 			
@@ -28,10 +32,10 @@ Klassische Variante in Methode 'onCreate':
 				
 			}
 		});
-
+	}
 ----
 
-In einem deklaritiven Kontext:
+Im deklaritiven Kontext:
 
 Zunächst ist eine Methode zu implementieren, welche bei 'onClick' aufgerufen werden soll.  
 Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen dagegen schon.  
