@@ -9,7 +9,7 @@ Die Einleitung wird hier erfolgen...
 Im klassischen Kontext:
 
 **MainActivity.java**
-
+```java
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		.
@@ -33,6 +33,8 @@ Im klassischen Kontext:
 			}
 		});
 	}
+```
+
 ----
 
 Im deklaritiven Kontext:
@@ -42,7 +44,7 @@ Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen d
 
 Die Methoden-Deklaration sollte lauten:
 
-__public void__ Namen __(View v)__
+__public void__ Namen__(View v)__
 
 Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abrufbar sein!  
 (Oder wenn der Dozent danach fragt...) 
