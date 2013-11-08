@@ -42,12 +42,13 @@ Im deklaritiven Kontext:
 Zunächst ist eine Methode zu implementieren, welche bei 'onClick' aufgerufen werden soll.  
 Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen dagegen schon.  
 
-Die Methoden-Deklaration sollte lauten:
+Die Methoden-Deklaration dazu lautet:
 
-__public void__ Namen__(View v)__
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">__public void__ Methoden-Name**(View v)**</font>
 
-Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abrufbar sein!  
-(Oder wenn der Dozent danach fragt...) 
+
+Diese Methoden-Deklaration sollte selbst nach dem Wecker-Klingeln frühmorgens sofort abrufbar sein!  
+(Oder wenn der Dozent danach fragt.) 
 
 **MainActivity.java**
 ```java
