@@ -59,3 +59,19 @@ In einem deklaritiven Kontext:
         android:onClick="btnOnClick"
         android:text="Drück doch mal" />
 
+__Vorschau auf die App__
+
+![Image](./readme-img/steuerelemente-start.png)
+
+Okay, nun den Schalter 'Drück doch mal' betätigen.
+
+![Image](./readme-img/steuerelemente-next.png)
+
+Es wird der Text aus der Eingabe-Zeile in die TextView übernommen.  
+Nun denn Schalter 'Räume auf betätigen'.
+
+![Image](./readme-img/steuerelemente-third.png)
+
+Jetzt kann ein eigener Test eingegeben werden.  
+Nun wiederum den Schalter 'Drück doch mal' betätigen.  
+Es erscheint der selbst eingegebene Text. 
