@@ -2,7 +2,7 @@
 
 [Entwuf]
 
-Einleitung hier...
+Die Einleitung erfolgt hier...
 
 ----
 
@@ -33,6 +33,16 @@ Klassische Variante in Methode 'onCreate':
 
 In einem deklaritiven Kontext:
 
+Zunächst ist eine Methode zu implementieren, welche bei 'onClick' aufgerufen werden soll.  
+Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen dagegen schon.  
+
+Die Methoden-Deklaration sollte lauten:
+
+__public void__ Namen__(View v)__
+
+Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abrufbar sein!  
+(Oder wenn der Dozent danach fragt...) 
+
 **MainActivity.java**
 
 	public void onClick_DrueckDochMal(View v) {
@@ -48,6 +58,10 @@ In einem deklaritiven Kontext:
 		tv.setText(text);
 		
 	}
+
+Nun zur jeweiligen *activity_xxx.xml*.  
+Der oben genannte Methoden-Name ist nun innerhalb der betreffenden _Button_-Deklaration bekannt zu geben.  
+Erfolgt dies __nicht__, wird die onClick-Methode in der Activity auch __nicht__  aufgerufen.
 
 **activity_main.xml**
 
