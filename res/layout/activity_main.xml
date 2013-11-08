@@ -16,6 +16,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="26dp"
+        android:text="Was tust Du da!?"
         android:ems="10" />
 
     <TextView
@@ -26,17 +27,29 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editText1"
         android:layout_marginTop="21dp"
-        android:text="Medium Text"
+        android:text="Na nichts."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnDrueckDochMal"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="19dp"
-        android:text="Button" />
+        android:onClick="onClick_DrueckDochMal"
+        android:text="Drück doch mal" />
+
+    <Button
+        android:id="@+id/btnRaeumeAuf"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnDrueckDochMal"
+        android:layout_alignBottom="@+id/btnDrueckDochMal"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginRight="32dp"
+        android:text="Räume auf" />
 
 </RelativeLayout>

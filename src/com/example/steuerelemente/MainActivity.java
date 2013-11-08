@@ -3,6 +3,9 @@ package com.example.steuerelemente;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -19,4 +22,26 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	/**
+	 * Wird beim Klicken des Schalters 'btnDrueckDochMal' aufgerufen.
+	 * </br>
+	 * Diese sogenannten Handler sind stets manuell zu erstellen!
+	 * </br>
+	 * Die Verbindung zum Steuerelement wird in der jeweiligen 'activity_xxx.xml'
+	 * hergestellt per 'android:onClick="onClick_DrueckDochMal"'
+	 *   
+	 * @param v - Referenz auf das Steuerelement, hier 'btnDrueckDochMal'
+	 */
+	public void onClick_DrueckDochMal(View v) {
+		
+		// Referenz auf Eingabezeile ermitteln  
+		EditText et = (EditText) findViewById(R.id.editText1);
+		// Eingabezeile auslesen
+		String text = et.getText().toString();
+
+		TextView tv = (TextView) findViewById(R.id.textView1);
+		tv.setText(text);
+		
+	}
+	
 }
