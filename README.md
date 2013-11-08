@@ -2,7 +2,7 @@
 
 [Entwuf]
 
-Die Einleitung erfolgt hier...
+Die Einleitung wird hier erfolgen...
 
 ----
 
@@ -65,17 +65,19 @@ Der hervorgehobene Text sollte selbst nach dem Wecker-Klingeln frühmorgens abru
 
 Nun zur jeweiligen *activity_xxx.xml*.  
 Der oben genannte Methoden-Name ist nun innerhalb der betreffenden _Button_-Deklaration bekannt zu geben.  
-Erfolgt dies __nicht__, wird die onClick-Methode in der Activity auch __nicht__  aufgerufen.
+Erfolgt dies __nicht__ / wird dies vergessen, wird die onClick-Methode in der Activity auch __nicht__  aufgerufen.
 
 **activity_main.xml**
 
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnDrueckDochMal"
 		.
 		.
-        android:onClick="btnOnClick"
+        android:onClick="onClick_DrueckDochMal"
         android:text="Drück doch mal" />
+
+Im Quelltext der 'Activity' wurden diesbezüglich an den betreffenden Stellen nochmals Kommentare angebracht
+
 
 __Vorschau auf die App__
 

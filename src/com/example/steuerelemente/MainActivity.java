@@ -66,7 +66,8 @@ public class MainActivity extends Activity {
 	}
 
 	/**
-	 * Wird beim Klicken des Schalters 'btnDrueckDochMal' aufgerufen.
+	 * Dies ist Bestandteil der deklarativen Variante und
+	 * wird beim Klicken des Schalters 'btnDrueckDochMal' aufgerufen.
 	 * </br>
 	 * Diese sogenannten Handler sind stets manuell zu erstellen!
 	 * </br>
