@@ -44,8 +44,9 @@ Der Name der Methode ist _nicht_ maßgebend, das links und rechts um den Namen d
 
 Die Methoden-Deklaration dazu lautet:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">__public void__ Methoden-Name**(View v)**</font>
-
+```java
+	public void Methoden-Name(View v)
+```
 
 Diese Methoden-Deklaration sollte selbst nach dem Wecker-Klingeln frühmorgens sofort abrufbar sein!  
 (Oder wenn der Dozent danach fragt.) 
