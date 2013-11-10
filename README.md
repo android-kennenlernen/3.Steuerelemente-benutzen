@@ -9,10 +9,10 @@ Aufgabe eines Computer-Programmes ist es
 Bei einer App sieht es natürlich nicht anders aus.
 
 Dazu benötigt man sogenannte Steuer-Elemente.  
-Diese müssen ausgelesen und deren Inhalt in den Programm-Fluß eingebracht werden.
+Diese müssen ausgelesen und deren Inhalt in den Programm-Fluß eingebracht werden.  
 Bei Schaltern muß man auf das Betätigen reagieren usw. .
 
-In der Beispiel-App wollen wir uns dies ansehen.  
+In einer Beispiel-App wollen wir uns dies ansehen.  
 
 __Aufgabenstellung__
 
@@ -32,12 +32,40 @@ Dann wird in der Activity Programm-Code eingebracht, welcher
 - und bei Betätigen des Schalters 'Räume auf'
 - die Text-Eingabe löscht und auf die Text-Anzeigezeile einen Hinweistext ausgibt. 
 
+__Hilfestellung__
+
+Zunächst ist ein neues Android-Projekt erstellen.
+
+Dann werden mittels des Oberflächen-Designer
+- 1 EditText
+- 1 TextView
+- 1 Schalter namens 'btnDrueckDochMal'
+- 1 Schalter namens 'btnRaeumeAuf'
+in die Oberfläche der Activity eingebracht.
+
+Bemerke gerade, das dies noch nicht vorgestellt wurde.  
+Statt dessen zunächst ein [Youtube-Video](http://www.youtube.com/watch?v=Yj9YZg7Mp6o).Sorry
+
+Sind die Steuerelemente auf der Oberfläche der Activity plaziert, können wir uns dem Quell-Code der Activity zuwenden.
+
+Dazu wechseln wir in das jeweilige Editorfenster.   
+
+Beginnen wir mit den Programm-Strukturen, welche für die Betätigung der Schalter zuständig sein werden.
+
+Hierzu gibt es zwei Möglichkeiten, welche in diesem Text als _'klassischer Kontext'_ und _'deklarativer Kontext'_ bezeichnet werden.
+
+Der _klassische Kontext_ knüpft an die klassische Java-GUI-Methodik an, Handler in den Programm-Code einzuhängen.
+
+Der _deklarative Kontext_ erledigt die Anknüpfung in der activity_xxx.xml.
+
+Fangen wir an... 
 
 ----
 
 Im klassischen Kontext:
 
 **MainActivity.java**
+
 ```java
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
