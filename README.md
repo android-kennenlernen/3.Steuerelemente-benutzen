@@ -1,8 +1,37 @@
 # 3.Steuerelemente-benutzen
 
-[Entwuf]
+Aufgabe eines Computer-Programmes ist es
 
-Die Einleitung wird hier erfolgen...
+- Eingaben entgegen zunehmen
+- Diese Eingaben intern zu verarbeiten
+- Das Ergebnis der Verarbeitung auszugeben
+ 
+Bei einer App sieht es natürlich nicht anders aus.
+
+Dazu benötigt man sogenannte Steuer-Elemente.  
+Diese müssen ausgelesen und deren Inhalt in den Programm-Fluß eingebracht werden.
+Bei Schaltern muß man auf das Betätigen reagieren usw. .
+
+In der Beispiel-App wollen wir uns dies ansehen.  
+
+__Aufgabenstellung__
+
+Im Oberflächen-Designer wird die Activity mit
+
+- 1 Text-Eingabezeile (EditText)
+- 1 Text-Anzeigezeile (TextView)
+- 2 Schalter (Button)
+
+ausgestattet.
+
+Dann wird in der Activity Programm-Code eingebracht, welcher
+
+- bei Betätigen des Schalters 'Drück doch mal'
+- die Text-Eingabezeile ausliest
+- die Text-Anzeigezeile mit dem ausgelesenen Text beschreibt
+- und bei Betätigen des Schalters 'Räume auf'
+- die Text-Eingabe löscht und auf die Text-Anzeigezeile einen Hinweistext ausgibt. 
+
 
 ----
 
@@ -99,6 +128,14 @@ Nun denn Schalter 'Räume auf betätigen'.
 
 ![Image](./readme-img/steuerelemente-third.png)
 
-Jetzt kann ein eigener Test eingegeben werden.  
+Jetzt kann ein eigener Text eingegeben werden.  
 Nun wiederum den Schalter 'Drück doch mal' betätigen.  
 Es erscheint der selbst eingegebene Text. 
+
+__Was sollten wir jetzt beherrschen?__
+
+- Eigenständiger Aufbau einer Benutzer-Oberfläche
+- Auslesen von Eingabe-Zeilen
+- Beschreiben von TextViews
+- Erstellen eines Button-Handlers
+- Einbinden des Button-Handlers im klassischen und deklarativen Kontext  
