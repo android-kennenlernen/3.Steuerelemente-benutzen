@@ -1,4 +1,4 @@
-# 3.Steuerelemente-benutzen
+# 4. Steuerelemente auslesen
 
 Aufgabe eines Computer-Programmes ist es
 
